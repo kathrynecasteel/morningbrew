@@ -1,0 +1,154 @@
+body{
+	background-color: #fafafa;
+}
+
+
+img{
+	float:left;
+	max-width: 18%;
+	
+}
+
+h1 { 
+	font-size: 3.3em;
+	color: #2D4AA6;
+	font-family: Verdana;
+	font-weight: bold;
+	padding-top: 10px;
+	text-transform: uppercase;
+	padding-bottom:0px;
+	margin:auto;
+}
+#header{
+	max-width:600px;
+	float:left;
+	padding-left:12px;
+	
+}
+
+
+
+.icons{
+	max-width: 150px;
+	padding: 10px;
+	margin: auto;
+
+}
+.icons:hover{
+	cursor: pointer;
+}
+
+h2{
+	font-size:1em;
+	color: #2D4AA6;
+	font-family: "PT Mono", sans-serif;
+	text-transform: uppercase;
+	padding: 0px;
+	margin:auto;
+
+}
+
+h4{
+	font-size:1.2em;
+	color: #2D4AA6;
+	font-family: "PT Mono", sans-serif;
+	text-transform: uppercase;
+	padding: 0px;
+	margin:auto;
+	font-weight:bold;
+
+}
+
+h3{
+	font-size: 1.1em;
+	color: black;
+	font-family: Verdana, sans-serif;
+	text-align:center;
+
+
+}
+
+h5{
+	font-size:1.75em;
+	color: #2D4AA6;
+	font-family: Verdana;;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+	margin:auto;
+	font-weight:bold;
+	text-decoration:underline;
+	text-align:center;
+
+}
+
+hr{
+	opacity: 20;
+}
+
+
+p{
+ font-size: .95em;
+ color: black;
+ font-family: Verdana, sans-serif;
+ line-height: 1.3em;
+}
+ul{
+	line-height:.90em;
+}
+
+li{
+	color: #2D4AA6;
+}
+
+.market{
+	color:red;
+	font-weight:bold;
+}
+
+.market_good{
+	color:green;
+	font-weight:bold;
+}
+
+.amb{
+	width:250px;
+	height:86px;
+	border-radius: 15px;
+	background-color:#2D4AA6;
+	position:static;
+
+}
+
+.ambtxt{
+	font-size:.90em;
+	font-family:Verdana;
+	color:#ffffff;
+	font-weight:bold;
+	margin:auto;
+	position:relative;
+	top:40%;
+}
+.amb:hover{
+	cursor:pointer;
+}
+
+@media only screen and (max-width: 40em) {
+  h1{
+    font-size: 2em ;
+   
+  }
+  .img{
+  	padding-top:10%;
+  }
+
+  .icons{
+  	max-width: 100px;
+  	margin: auto;
+  }
+
+  h2{
+  	font-size:.75em;
+ 
+  }
+
+ }
